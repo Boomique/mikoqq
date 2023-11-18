@@ -1,0 +1,98 @@
+header{
+    background-color: rgb(255, 255, 255); /*цвет фона*/
+    height: 500px; /*высота блока*/
+    color: rgb(255, 255, 255); /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    background-image: url(https://trashbox.ru/ifiles/1166666_a62c95_screenshot_00.png-orig/car-parking-multiplayer-android-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(178, 154, 154) 2px 5px 5px;
+    padding-top: 30px;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size: 80px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgb(196, 185, 185) 2px 5px 5px 
+}
+
+main{
+    background-color: rgb(255, 255, 255); 
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-image: url(https://st4.depositphotos.com/26555310/38998/v/450/depositphotos_389983196-stock-illustration-abstract-grey-technology-design-of.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex ;
+    justify-content: center;
+    background-image: url(https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg) ;
+}
+
+footer{
+    background-color: rgb(255, 38, 38);
+    height: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-image: url(https://oir.mobi/uploads/posts/2021-03/1616990825_8-p-fon-v-stile-anime-9.jpg);
+    background-position: top;
+    background-repeat:no-repeat ;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(255, 255, 255)); 
+    display: flex;
+
+}
+
+.left{
+    background-color: rgba(0, 0, 255, 0.702);
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.right{
+    background-color: aliceblue;
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-left: 50px;
+}
+.cont{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.f_left img{
+    padding-top: 10px;
+}
+
+.f_right{
+    width: 70%;
+    float: right;
+}
+.f_right img{
+    width: 100px;
+    padding-left: 20px;
+}
+
+.f_right ul{
+    list-style:none ;
+    display: flex;
+    align-items:center ;
+}
